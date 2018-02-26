@@ -25,30 +25,35 @@
 <body>
     <div class="wrapper">
 
-        <div class="navigation">
-            <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-primary">
+        <div class="navigation fixed-top">
+            <nav class="navbar navbar-expand navbar-dark navigation-color">
                 <div class="container">
-                    <div>
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item dropdown ml-5">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                My First App
-                            </a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">Action</a>
-                                    <a class="dropdown-item" href="#">Another action</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">Something else here</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                    <ul class="nav justify-content-end">
+                    <ul class="navbar-nav mr-auto">
+                        <li class="nav-item d-lg-none mt-2">
+                            <span class="navbar-toggler-icon"></span>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle ml-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        Dropdown
+                                    </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">Action</a>
+                                <a class="dropdown-item" href="#">Another action</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">Something else here</a>
+                            </div>
+                        </li>
+                    </ul>
+
+                    <ul class="nav navbar-nav navbar-right">
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Active</a>
+                            <a class="nav-link disabled" href="#">Go to docs</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" href="#">Link</a>
+                            <a class="nav-link navigation-text px-1" href="#"><i class="fa fa-bell" aria-hidden="true"></i></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link p-0" href="#"><img src="picture-assets/profile-pic.png" width="40" height="40" class="profile-pic ml-2" alt="Profile"></a>
                         </li>
                     </ul>
                 </div>
@@ -93,7 +98,10 @@
         </div>
 
         <footer class="footer"></footer>
+
     </div>
+    <!-- Wrapper End -->
+
     <!-- Bootstrap/JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
