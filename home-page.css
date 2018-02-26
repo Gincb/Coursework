@@ -5,10 +5,8 @@
 }
 
 .navigation {
-    margin: 0;
-    padding: 0;
     width: 100%;
-    height: 50px;
+    height: 45px;
 }
 
 .navigation-color {
@@ -23,26 +21,23 @@
     border-radius: 50%;
 }
 
-.block-intro {
-    margin: 0;
-    width: 100%;
-    background: #1699E5;
+.intro-background {
+    background: url("picture-assets/overview_devices_rotated_2x.png") #1699E5;
+    max-width: 100%;
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 .block-offers {
-    margin: 0;
     width: 100%;
     min-height: 100px;
     background: lightgrey;
 }
 
 .footer {
-    margin: 0;
     background: lightgrey;
-}
-
-.row {
-    background: lightcoral;
 }
 
 
