@@ -15,26 +15,23 @@
 
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet">
 
     <!-- Fontawesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
 
 </head>
 
 <body>
     <div class="wrapper">
 
-        <div class="navigation fixed-top">
-            <nav class="navbar navbar-expand navbar-dark navigation-color">
+        <div class="navigation">
+            <nav class="navbar navbar-expand navbar-dark navigation-color navbar-fixed-top">
                 <div class="container">
-                    <ul class="navbar-nav mr-auto">
-                        <li class="nav-item d-lg-none mt-2">
-                            <span class="navbar-toggler-icon"></span>
-                        </li>
+                    <ul class="navbar-nav">
                         <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle ml-3" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                        Dropdown
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                        My First App
                                     </a>
                             <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                                 <a class="dropdown-item" href="#">Action</a>
@@ -45,7 +42,7 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="navbar-nav navbar-right">
                         <li class="nav-item">
                             <a class="nav-link disabled" href="#">Go to docs</a>
                         </li>
@@ -61,31 +58,31 @@
         </div>
 
         <div class="block-intro intro-background">
-            <!-- <img src="picture-assets/overview_devices_rotated_2x.png" class="img-fluid intro" alt="Responsive image"> -->
-            <div class="container-fluid">
-                <!-- Added a new container for row (rows need contaiers) annd container-fluid for white space (?) -->
-                <div class="row">
-                    <div class="col-sm-6 col-md-4">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-                        content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                        infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-                        content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                        infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </div>
-                    <div class="col-sm-6 col-md-4">
-                        It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here,
-                        content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text, and a search for 'lorem ipsum' will uncover many web sites still in their
-                        infancy. Various versions have evolved over the years, sometimes by accident, sometimes on purpose (injected humour and the like).
-                    </div>
+            <div class="intro-header">
+                <h1 class="intro-text welcome mb-0">Welcome to Firebase!</h1>
+                <h2 class="intro-text get-started mt-0">Get started here.</h2>
+            </div>
+
+            <div class="intro-icons">
+                <div class="icon ">
+                    <i class="fab fa-apple"></i>
                 </div>
+                <div class="icon">
+                    <i class="fab fa-android"></i>
+                </div>
+                <div class="icon">
+                    <i class="fas fa-code"></i>
+                </div>
+            </div>
+
+            <div class="intro-icon-description">
+                <p>Add Firebase to your iOS app</p>
+                <p>Add Firebase to your Android app</p>
+                <p>Add Firebase to your web app</p>
             </div>
         </div>
 
         <div class="block-offers container-fluid">
-            <!-- Added container-fluid for white space (?) -->
             <div class="row">
                 <div class="col-sm-6 col-md-4">
                     One of three columns
