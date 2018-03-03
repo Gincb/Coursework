@@ -6,7 +6,7 @@
 
 .navigation {
     width: 100vw;
-    height: 45px;
+    height: 55px;
 }
 
 .navigation-color {
@@ -22,12 +22,12 @@
 }
 
 .block-intro {
-    padding: 30px;
+    padding: 5px 30px;
 }
 
 .intro-background {
     background: url("picture-assets/overview_devices_rotated_2x.png") #1699E5;
-    height: 100vh;
+    height: 70vh;
     background-size: 768px 672px;
     background-position: 100% 70%;
     background-repeat: no-repeat;
@@ -36,6 +36,8 @@
 }
 
 .intro-header {
+    margin: 35px 20px;
+    padding: 15px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -55,7 +57,7 @@
 
 .intro-icons {
     display: flex;
-    max-width: 500px;
+    max-width: 100vw;
     justify-content: space-around;
     align-items: center;
 }
@@ -80,12 +82,13 @@
 
 .intro-icon-description {
     display: flex;
-    max-width: 500px;
+    max-width: 100vw;
     justify-content: space-around;
     align-items: center;
 }
 
 .intro-icon-description p {
+    padding: 0 15px;
     color: white;
     text-align: center;
     font-family: "Roboto", sans-serif;
@@ -95,11 +98,140 @@
     width: 100vw;
     min-height: 100px;
     background: lightgrey;
+    font-family: "Roboto", sans-serif;
+}
+
+.offers-header {
+    padding-left: 10px;
+    color: rgb(97, 97, 97);
+}
+
+.offer-card {
+    margin: 10px;
+}
+
+.discover {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.offer {
+    padding: 15px;
+    background-color: white;
+    box-shadow: 1px 1px 5px gray;
+}
+
+.offer-title {
+    font-size: 20px;
+}
+
+.offer-description {
+    min-height: 70px;
+    max-width: 100%;
+    color: gray;
+    font-size: 13px;
+}
+
+.offer-links {
+    padding-top: 20px;
+}
+
+.link__more {
+    text-decoration: underline;
+    font-size: 14px;
+}
+
+.link__get-started {
+    float: right;
+    padding: 1px;
+    font-size: 14px;
 }
 
 .footer {
-    background: lightgrey;
+    position: absolute;
+    padding: 15px;
+    width: 100vw;
+    min-height: 45px;
+    background-color: #1699E5;
 }
 
+.footer-name {
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-size: 15px;
+    text-align: center;
+}
 
-/* 1699E5 */
+@media only screen and (min-width: 768px) {
+    .intro-icons,
+    .intro-icon-description {
+        max-width: 60vw;
+    }
+    .icon {
+        width: 130px;
+        height: 130px;
+        font-size: 77px;
+    }
+    .row {
+        margin-top: -70px;
+    }
+    .offers-header {
+        position: relative;
+        top: -70px;
+        color: white;
+    }
+    .discover {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 767px) {
+    .intro-icons,
+    .intro-icon-description {
+        max-width: 70vw;
+    }
+    .row {
+        margin-top: -70px;
+    }
+    .offers-header {
+        position: relative;
+        top: -70px;
+        color: white;
+    }
+    .discover {
+        color: white;
+    }
+}
+
+@media screen and (min-width: 375px) and (max-width: 599px) {
+    .intro-icon-description p {
+        padding: 0 5px;
+    }
+    .intro-header {
+        margin: 10px 20px 20px 10px;
+    }
+    .welcome {
+        font-size: 15px;
+    }
+    .get-started {
+        font-size: 45px;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .intro-header {
+        margin: 10px;
+    }
+    .welcome {
+        font-size: 15px;
+    }
+    .get-started {
+        font-size: 40px;
+    }
+    .icon {
+        width: 80px;
+        height: 80px;
+        font-size: 46px;
+    }
+}
